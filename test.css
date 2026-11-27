@@ -13,12 +13,42 @@ font-family: 'Ubuntu', sans-serif;
 }
 nav ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     height: 65px; 
     background-color: rgb(14, 13, 13);
     color: white;
  }
- .brand IMG { 
-    width:44px
+ nav ul li{
+    padding: 0px 12px;
+ }
+.brand img { 
+    width:50px;
+    padding: 0 8px;
 
  }
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{ 
+    min-height: 75vh;
+    
+}
+
+.bottom{ 
+    position: sticky;
+    height: 220px;
+    background-color: black;
+    bottom: 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myProgressBar {
+
+    width: 80vw;
+    text-align: center;
+}
